@@ -1,9 +1,13 @@
 # BREAKOUT
--------
+---
 A JS clone of the 1972 Atari game by the same name
 
 ##### TODO:
-- Fix paddle wonkiness (ball rolls off at certain angles)
-- Use constants when assigning sizes
-- Implement collision detection for bricks
-- Remove bricks upon ball collision
+- Improve collision detection
+- Display score
+- Keep track of lives
+- Associate ball trajectory with paddle movement
+
+##### BUGS:
+- Collision detection somehow linked to ball speed
+- Ball moves through blocks sometimes
